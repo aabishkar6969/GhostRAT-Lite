@@ -10,8 +10,8 @@ Student: Aabishkar Roka | ID: 230476
 This tool was developed strictly for educational purposes as part of an academic red team simulation exercise. All testing was conducted within an isolated VirtualBox lab environment with no connection to live systems or real networks. The author does not condone or support any malicious use of this software. Use only in controlled, authorised lab environments.
 
 📋 Overview
-GhostRAT-Lite is a lightweight Python-based Command and Control (C2) framework developed to emulate the operational behaviour of APT1's historically documented backdoors — specifically WEBC2 and POISONIVY. The framework was built as part of Operation GhostUnit, a structured adversary emulation exercise mapped entirely to the MITRE ATT&CK Enterprise Framework.
-The key design goal of GhostRAT-Lite is to disguise all C2 traffic as normal web activity — HTTP GET requests are disguised as jQuery library fetches, and command results are returned via endpoints mimicking Google Analytics calls. This replicates the exact communication pattern documented in the Mandiant APT1 Intelligence Report (2013).
+GhostRAT-Lite is a lightweight Python-based Command and Control (C2) framework developed to emulate the operational behaviour of APT1's historically documented backdoors specifically WEBC2 and POISONIVY. The framework was built as part of Operation GhostUnit, a structured adversary emulation exercise mapped entirely to the MITRE ATT&CK Enterprise Framework.
+The key design goal of GhostRAT-Lite is to disguise all C2 traffic as normal web activity HTTP GET requests are disguised as jQuery library fetches, and command results are returned via endpoints mimicking Google Analytics calls. This replicates the exact communication pattern documented in the Mandiant APT1 Intelligence Report (2013).
 
 🔧 Installation & Setup
 Requirements
