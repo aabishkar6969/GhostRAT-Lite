@@ -16,9 +16,9 @@ The key design goal of GhostRAT-Lite is to disguise all C2 traffic as normal web
 🔧 Installation & Setup
 Requirements
 
-Kali Linux (Attacker) — 192.168.56.101
-Windows 10 Pro (Victim) — 192.168.56.102
-VirtualBox Host-Only Network — 192.168.56.0/24
+Kali Linux (Attacker)
+Windows 10 Pro (Victim)
+VirtualBox Host-Only Network
 Python 3.x on both machines
 Flask installed on Kali
 
